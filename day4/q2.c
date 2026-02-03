@@ -1,3 +1,8 @@
+//
+//Q2.) Write a C program using the file-related system calls creat(), open(), write(), read(), and
+//close() to create a file data.txt, write the string "Operating Systems Lab" into it, reopen the file
+//in read mode, and display its contents on the screen.
+
 #include<stdio.h>
 #include<unistd.h>
 #include<fcntl.h>
