@@ -13,7 +13,7 @@ int main(){
     int n;
     int file1 = open("num1.txt",O_RDONLY);
     int file2 = open("num2.txt",O_RDONLY);
-    int ansfile = open("ans.txt",O_CREAT|O_RDWR,0777);
+    int ansfile = open("ans.txt",O_CREAT|O_RDWR|O_TRUNC,0777);
     n=read(file1,buffer1,sizeof(buffer1));
     buffer1[n]='\0';
     n=read(file2,buffer2,sizeof(buffer2));

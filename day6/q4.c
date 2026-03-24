@@ -12,7 +12,7 @@ void* process0(void *arg){
     s0 = 1;          
     while(s1 == 1);  
 
-    printf("exitting p0\n");
+//    printf("exitting p0\n");
     return NULL;
 }
 

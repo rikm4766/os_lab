@@ -2,4 +2,5 @@ a.out
 data.txt
 process_syscall.txt
 largefile.txt
-
+lib_output.txt
+sys_output.txt
