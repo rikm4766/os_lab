@@ -21,12 +21,12 @@ int main(){
     pthread_create(&t,NULL,hello,NULL);
 
 
-    void **result;
-    pthread_join(t,result);
+    void *result;
+    pthread_join(t,&result);
 
 
 
-    printf("RESULT = %d\n",**result);
+    printf("RESULT = %d\n",*(int*)result);
 
     free(result);
 
