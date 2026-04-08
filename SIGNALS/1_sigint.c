@@ -2,6 +2,8 @@
 #include<unistd.h>
 #include<signal.h>
 
+//ctrl+c
+
 void interputhandler(int sig){
     printf("interupt handler called\n");
 }

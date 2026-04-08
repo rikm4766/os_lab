@@ -2,6 +2,8 @@
 #include<unistd.h>
 #include<signal.h>
 
+// kill pid
+
 void handler(int sig){
     printf("sigterm called\n");
 }
